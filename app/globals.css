@@ -3,6 +3,7 @@
 
 body {
   background-color: rgb(255, 255, 255);
+  margin: 0 auto;
 }
 
 .nav-link {
@@ -37,6 +38,19 @@ a.name-link:hover {
 .dark header .nav-link {
   color: white;
 }
+
+.dark header {
+  background-color: #15151e;
+}
+
+.dark a {
+  color: white;
+}
+
+.dark a:visited {
+  color: white;
+}
+
 .dark a.name-link {
   color: white;
 }

@@ -1,20 +1,40 @@
 import Image from "next/image";
 
-function Card({ href, imgAlt, imgSrc, children }) {
+function Card({ href, siteUrl, gitUrl, imgAlt, imgSrc, children }) {
   return (
-    <div className="card rounded-lg w-[360px] mb-10 flex-shrink-0 border shadow-lg overflow-hidden">
-      <div className="h-60 w-full">
-        <Image
-          className="h-full w-full object-cover"
-          src={imgSrc}
-          alt={imgAlt}
-          href={href}
-        />
-      </div>
-      <div className="h-28 p-8 pt-4 text-sm"> {children} </div>
-      <div className=" px-8 pb-6 flex justify-between text-sm">
-        {" "}
-        <a href={href}>See site</a> <a href={href}>Code</a>{" "}
+    <div className="card max-w-[600px] md:max-w-[600px] lg:max-w-none flex shadow-lgs p-8 border-solid border-[0.5px] border-slate-400">
+      <div className="min-w-full flex flex-col lg:flex-row items-center gap-6">
+        <div className="flex w-full justify-center lg:justify-normal">
+          <Image
+            className="max-w-[90%] h-auto lg:w-[450px]"
+            src={imgSrc}
+            alt={imgAlt}
+          />
+        </div>
+        <div className="flex flex-col justify-between h-full md:w-full text-left">
+          <div className="w-full flex flex-col lg:items-start  lg:text-start gap-4 leading-6">
+            {" "}
+            {children}{" "}
+          </div>
+          <div className="flex space-x-8 text-sm mt-6">
+            <a
+              href={siteUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="no-underline visited:text-black p-2 hover:border-solid border-[1px]"
+            >
+              See site
+            </a>
+            <a
+              href={gitUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="no-underline visited:text-black p-2 hover:border-solid border-[1px]"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
