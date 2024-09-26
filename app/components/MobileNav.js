@@ -1,11 +1,27 @@
 "use client";
 import { FaGithub, FaLinkedin, FaRegEnvelope } from "react-icons/fa";
+import { MdOutlineLightMode, MdOutlineNightlight } from "react-icons/md";
+
+import { useTheme } from "../context/ThemeProvider";
 import Link from "next/link";
 
 export default function MobileNav() {
+  const { state, toggleTheme } = useTheme();
+
   return (
     <div className="w-full">
       <span className="flex flex-col fixed z-0 right-2 top-4 md:hidden space-y-2">
+        <button
+          className="icon dark-mode-icon mr-4 text-2xl border-none p-0 text-slate-400"
+          onClick={toggleTheme}
+          type="button"
+        >
+          {state.theme === "light" ? (
+            <MdOutlineLightMode />
+          ) : (
+            <MdOutlineNightlight />
+          )}
+        </button>
         <Link
           href="#"
           className="icon text-2xl text-slate-400 hover:text-[#c9510c]"

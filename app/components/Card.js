@@ -16,12 +16,12 @@ function Card({ href, siteUrl, gitUrl, imgAlt, imgSrc, children }) {
             {" "}
             {children}{" "}
           </div>
-          <div className="flex space-x-8 text-sm mt-6">
+          <div className="flex-col space-x-8 text-sm mt-6">
             <a
               href={siteUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="no-underline visited:text-black p-2 hover:border-solid border-[1px]"
+              className="no-underline visited:text-black px-2 py-1 border-solid border-[0.5px]"
             >
               See site
             </a>
@@ -29,7 +29,7 @@ function Card({ href, siteUrl, gitUrl, imgAlt, imgSrc, children }) {
               href={gitUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="no-underline visited:text-black p-2 hover:border-solid border-[1px]"
+              className="no-underline visited:text-black px-2 py-1 border-solid border-[0.5px]"
             >
               GitHub
             </a>

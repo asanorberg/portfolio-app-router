@@ -7,7 +7,7 @@ function CardSection() {
     <div className="flex text-center">
       <div className="grid grid-cols-1 gap-5 max-w-[1200px] mx-4 my-12">
         <div className="flex flex-col items-center">
-          <h1 className="text-xl font-normal">Recent projects</h1>
+          <h1 className="text-xl font-normal">RECENT PROJECTS</h1>
           <div className="w-[100px] h-1 bg-purple-800 mb-4"></div>
         </div>
 

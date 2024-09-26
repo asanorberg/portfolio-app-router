@@ -60,10 +60,7 @@ export default function TechStack() {
           <SiRedux />
           <span>Redux</span>
         </TechIcon>
-        <TechIcon iconSize="text-lg" textSize="text-sm">
-          <TbBrandReactNative />
-          <span>React Native</span>
-        </TechIcon>
+
         <TechIcon iconSize="text-lg" textSize="text-sm">
           <SiFigma />
           <span>Figma</span>
@@ -83,6 +80,10 @@ export default function TechStack() {
         <TechIcon iconSize="text-lg" textSize="text-sm">
           <SiTrello />
           <span>Trello</span>
+        </TechIcon>
+        <TechIcon iconSize="text-lg" textSize="text-sm">
+          <TbBrandReactNative />
+          <span>React Native</span>
         </TechIcon>
       </div>
     </div>

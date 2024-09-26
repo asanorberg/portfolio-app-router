@@ -14,13 +14,13 @@ export default function Header() {
         <nav>
           <div className="flex items-center whitespace-nowrap md:space-x-16 space-x-8">
             <Link className="nav-link" href="/">
-              Home
+              HOME
             </Link>
             <Link className="nav-link" href="/projects">
-              Projects
+              PROJECTS
             </Link>
             <Link className="nav-link" href="/about">
-              About me
+              ABOUT ME{" "}
             </Link>
           </div>
         </nav>

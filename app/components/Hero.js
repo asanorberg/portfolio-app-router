@@ -6,7 +6,7 @@ import TechStack from "./TechStack";
 
 export default function Hero() {
   return (
-    <div className="w-full">
+    <div className="w-full max-w-[1200px]">
       <div className="flex h-[400px] w-auto md:space-x-16 mt-[200px] mb-[200px] md:px-36 px-10">
         <div className="flex h-full w-fit items-center justify-center">
           <Image
@@ -16,7 +16,7 @@ export default function Hero() {
         </div>
 
         <div className="flex flex-col justify-center text-6xl w-fit ">
-          <h1 className="text-6xl font-normal mb-4 text-purple-800">
+          <h1 className="purple-text text-6xl font-normal mb-4 text-purple-800">
             Welcome.
           </h1>
           <p className="font-thin text-5xl">
