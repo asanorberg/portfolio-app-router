@@ -11,8 +11,6 @@ import {
   SiReact,
   SiMagento,
   SiStoryblok,
-  SiDynamics365,
-  SiTrello,
 } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 
@@ -20,8 +18,8 @@ import TechIcon from "./TechIcon";
 
 export default function TechStack() {
   return (
-    <div className="flex flex-col flex-wrap justify-center">
-      <div className="grid md:grid-cols-4 grid-cols-3 gap-4 ">
+    <div className="flex items-start justify-center">
+      <div className="flex flex-wrap gap-2">
         <TechIcon iconSize="text-lg" textSize="text-sm">
           <SiJavascript />
           <span>Javascript</span>
@@ -72,14 +70,6 @@ export default function TechStack() {
         <TechIcon iconSize="text-lg" textSize="text-sm">
           <SiStoryblok />
           <span>Storyblok</span>
-        </TechIcon>
-        <TechIcon iconSize="text-lg" textSize="text-sm">
-          <SiDynamics365 />
-          <span>Navision</span>
-        </TechIcon>
-        <TechIcon iconSize="text-lg" textSize="text-sm">
-          <SiTrello />
-          <span>Trello</span>
         </TechIcon>
         <TechIcon iconSize="text-lg" textSize="text-sm">
           <TbBrandReactNative />

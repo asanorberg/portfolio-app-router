@@ -3,13 +3,20 @@ import Hero from "./components/Hero";
 import MobileNav from "./components/MobileNav";
 import About from "./components/About";
 import Footer from "./components/Footer";
+
 export default function Home() {
   return (
-    <main className="min-h-screen min-w-screen flex flex-col items-center justify-center">
+    <main className="min-h-screen  flex flex-col justify-center items-center">
       <MobileNav />
-      <Hero />
-      <About />
-      <CardSection />
+      <div id="home">
+        <Hero />
+      </div>
+      <div id="about" className="w-full flex justify-center md:my-16">
+        <About />
+      </div>
+      <div id="projects" className="w-full flex justify-center md:my-16">
+        <CardSection />
+      </div>
       <Footer />
     </main>
   );

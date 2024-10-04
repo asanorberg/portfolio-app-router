@@ -22,7 +22,7 @@ export function MyApp({ children }) {
     }
   }, [state.theme]);
 
-  return <div className=" flex-col m-auto mb-10">{children}</div>;
+  return <div className="flex-col m-auto">{children}</div>;
 }
 
 export default ({ children }) => (

@@ -9,56 +9,22 @@ export default function About() {
       <div className="max-w-[1200px] flex border-solid border-[0.5px] border-slate-400 min-w-fit mx-4 my-4">
         <div className="flex-col text-left justify-center items-center px-12 py-8 max-w-[1200px]">
           <p className="leading-6 font-light tracking-wide">
-            I am a second year{" "}
-            <span className="purple-text font-semibold text-purple-800">
-              Frontend Developer
-            </span>{" "}
-            student at Chas Academy in Stockholm, now on the lookout for an
-            internship (LIA) starting{" "}
-            <span className="purple-text font-semibold text-purple-800">
-              November 18
-            </span>{" "}
-            (some flexibility can be applied!). Aside from knowing how to code I
-            have a keen eye for design and love to create UIs that are pleasing
-            to the eye while being user friendly.
+            I'm a second-year{" "}
+            <span className="font-semibold">Frontend Developer</span> student at
+            Chas Academy in Stockholm, seeking an internship (LIA) starting
+            November 18 (with some flexibility). In addition to coding, I have a
+            strong eye for design, creating visually appealing and user-friendly
+            UIs.
             <br />
-            <br />I have 10 years of experience within{" "}
-            <span className="purple-text font-semibold text-purple-800">
-              CX{" "}
-            </span>{" "}
-            and{" "}
-            <span className="purple-text font-semibold text-purple-800">
-              E-commerce{" "}
-            </span>{" "}
-            from a company and E-com department that grew rapidly. This meant
-            getting to do la LOT of different things. During my time in E-com I
-            have dabbled in{" "}
-            <span className="purple-text font-semibold text-purple-800">
-              Social Media{" "}
+            <br />I also bring{" "}
+            <span className="font-semibold">
+              10 years of CX and E-commerce experience
             </span>
-            ,
-            <span className="purple-text font-semibold text-purple-800">
-              Marketplaces{" "}
-            </span>
-            ,
-            <span className="purple-text font-semibold text-purple-800">
-              Online Merchandising{" "}
-            </span>
-            ,{" "}
-            <span className="purple-text font-semibold text-purple-800">
-              copywriting{" "}
-            </span>{" "}
-            and{" "}
-            <span className="purple-text font-semibold text-purple-800">
-              CRM{" "}
-            </span>{" "}
-            alongside my main focus of customer interaction. I’m a fast learner
-            and I enjoy the process of finding my way around a new system.
-            <br />
-            <br />
-            I’m used to working project based and in collaboration with a team,
-            but am no stranger to hunker down with my noise cancelling
-            headphones for deep focus.
+            , where I worked on various tasks including Social Media,
+            Marketplaces, Online Merchandising, copywriting, and CRM, alongside
+            customer interaction. I'm a quick learner, comfortable navigating
+            new systems, and have experience working both in teams and
+            independently on projects.
           </p>
         </div>
       </div>

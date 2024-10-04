@@ -10,7 +10,7 @@ export default function MobileNav() {
 
   return (
     <div className="w-full">
-      <span className="flex flex-col fixed z-0 right-2 top-4 md:hidden space-y-2">
+      <span className="flex flex-col fixed z-0 right-6 top-4 md:hidden space-y-2">
         <button
           className="icon dark-mode-icon mr-4 text-2xl border-none p-0 text-slate-400"
           onClick={toggleTheme}
@@ -23,13 +23,17 @@ export default function MobileNav() {
           )}
         </button>
         <Link
-          href="#"
+          href="https://github.com/asanorberg"
+          target="_blank"
+          rel="noopener noreferrer"
           className="icon text-2xl text-slate-400 hover:text-[#c9510c]"
         >
           <FaGithub />
         </Link>
         <Link
-          href="#"
+          href="https://www.linkedin.com/in/asa-norberg-373ba4110"
+          target="_blank"
+          rel="noopener noreferrer"
           className="icon text-2xl text-slate-400 hover:text-[#0077B5]"
         >
           <FaLinkedin />

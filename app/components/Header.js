@@ -16,10 +16,10 @@ export default function Header() {
             <Link className="nav-link" href="/">
               HOME
             </Link>
-            <Link className="nav-link" href="/projects">
+            <Link className="nav-link" href="#projects">
               PROJECTS
             </Link>
-            <Link className="nav-link" href="/about">
+            <Link className="nav-link" href="#about">
               ABOUT ME{" "}
             </Link>
           </div>
@@ -42,14 +42,18 @@ export default function Header() {
           </span>
           <span className="hidden md:flex md:flex-row md:space-x-6 space-y-2 md:space-y-0 items-center">
             <Link
-              href="#"
+              href="https://github.com/asanorberg"
               className="icon text-2xl text-slate-400 hover:text-[#c9510c]"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaGithub />
             </Link>
             <Link
-              href="#"
+              href="https://www.linkedin.com/in/asa-norberg-373ba4110"
               className="icon text-2xl text-slate-400 hover:text-[#0077B5]"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaLinkedin />
             </Link>
