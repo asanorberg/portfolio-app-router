@@ -3,6 +3,7 @@ import cat from "@/app/assets/cat.jpg";
 import apple_quiz from "@/app/assets/apple_quiz.png";
 import fairytailor_desktop from "@/app/assets/fairytailor_desktop.png";
 import zoom from "@/app/assets/zoom.png";
+import moviesite from "@/app/assets/moviesite_preview.png";
 
 import Badge from "./Badge";
 
@@ -34,6 +35,20 @@ function CardSection() {
           </span>
         </Card>
         <Card
+          imgSrc={moviesite}
+          siteUrl="https://movie-site-orpin.vercel.app/"
+          gitUrl="https://github.com/asanorberg/movie-site/"
+        >
+          {" "}
+          An interactive web application that allows users to explore a wide
+          range of popular movies using TMDb API. You can search for movies,
+          mark them as watched, or save them as favorites.
+          <span className="flex space-x-1">
+            <Badge>Vite</Badge> <Badge>Redux</Badge> <Badge>API</Badge>{" "}
+            <Badge>Tailwind</Badge>
+          </span>
+        </Card>
+        <Card
           imgSrc={apple_quiz}
           siteUrl="https://asa-norberg-portfolio-quiz.vercel.app/"
           gitUrl="https://github.com/asanorberg/quiz"
@@ -43,7 +58,7 @@ function CardSection() {
           an admin login where you can easily add, edit, or remove quiz
           questions. The app also includes a scoring system and dark mode.
           <span className="flex space-x-1">
-            <Badge>Next.js</Badge> <Badge>Redux</Badge>
+            <Badge>Next.js</Badge> <Badge>Redux</Badge> <Badge>Tailwind</Badge>
           </span>
         </Card>
         <Card
@@ -61,7 +76,6 @@ function CardSection() {
             <Badge>Vite</Badge> <Badge>Tailwind</Badge>
           </span>
         </Card>
-        <Card imgSrc={cat}>Some information about my project.</Card>
       </div>
     </div>
   );
